@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container div{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: bisque;
+}
